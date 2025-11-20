@@ -34,6 +34,16 @@
         font-size: 3em;
     }
 }
+@media (max-width: 792px) {
+    .article-writing {
+        padding: 0;
+    }    
+}
+@media (min-width: 792px) {
+    .article-writing {
+        padding: 0 10em 0 10em;
+    }    
+}
 
 .writing-header {
     font-size: 80px;
@@ -59,10 +69,10 @@
 .article-writing{
     font-family: "Poiret One", sans-serif;
     font-weight: 400;
-    padding: 0 1em 0 1em;
     font-style: normal;
     font-size: 25px;
     margin: 5px;
+    text-align: center;
 
 }
 /*** Button Start ***/
